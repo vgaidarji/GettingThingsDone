@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">GettingThingsDone</string>
+	<string name="city_caption">City:</string>
+	<string name="city_code_identification_caption">City code identification…</string>
+	<string name="city_is_not_determined">City is not determined!</string>
+	<string name="click_to_open_application">Click to open application</string>
+	<string name="find_airline_tickets">Find airline tickets</string>
+	<string name="list_initialization">List initialization…</string>
+	<string name="loading_airline_tickets_caption">Loading airline tickets…</string>
+	<string name="new_search">New search</string>
+	<string name="no_available_data">No available data</string>
+	<string name="searching_airline_tickets_caption">Searching airline tickets…</string>
+	<string name="searching_city_caption">Searching city…</string>
+	<string name="search_initialization_caption">Search initialization…</string>
+	<string name="tickets_found">Tickets found</string>
+</resources>

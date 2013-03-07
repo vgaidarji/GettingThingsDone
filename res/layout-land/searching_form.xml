@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			  android:orientation="vertical"
+			  android:layout_width="match_parent"
+			  android:layout_height="match_parent"
+			  android:background="#eeeeee"
+			  android:gravity="center">
+
+	<LinearLayout
+			android:orientation="horizontal"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:id="@+id/linearLayoutCitySearchingProgress"
+			android:layout_margin="5dp"
+			android:layout_centerHorizontal="true"
+			android:gravity="center"
+			>
+
+		<ProgressBar
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				/>
+
+		<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="@string/searching_city_caption"
+				android:id="@+id/textViewCitySearching"
+				android:layout_gravity="center"
+				android:textSize="18dp"
+				android:textColor="#000000"
+				android:layout_marginLeft="5dp"/>
+
+	</LinearLayout>
+
+	<LinearLayout
+			android:orientation="horizontal"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:id="@+id/linearLayoutSearchResult"
+			android:layout_below="@+id/linearLayoutCitySearchingProgress"
+			android:gravity="center"
+			android:visibility="gone">
+
+		<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="@string/city_caption"
+				android:id="@+id/textView1"
+				android:textColor="#000000"
+				android:textSize="18dp"
+				android:layout_marginRight="10dp"/>
+
+		<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:id="@+id/textViewCity"
+				android:textSize="22dp"
+				android:textColor="#000000"/>
+	</LinearLayout>
+
+	<LinearLayout
+			android:orientation="horizontal"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:id="@+id/linearLayoutTicketsSearchingProgress"
+			android:layout_below="@+id/linearLayoutSearchResult"
+			android:gravity="center"
+			android:visibility="gone">
+
+		<ProgressBar
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				/>
+
+		<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="@string/searching_airline_tickets_caption"
+				android:id="@+id/textViewTicketsSearching"
+				android:layout_gravity="center"
+				android:layout_marginLeft="10dp"
+				android:textSize="18dp"
+				android:textColor="#000000"/>
+	</LinearLayout>
+
+	<Button
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="@string/find_airline_tickets"
+			android:id="@+id/buttonFindAirlineTickets"
+			android:layout_gravity="center_horizontal"
+			android:layout_marginTop="10dp"
+			android:layout_centerHorizontal="true"
+			android:layout_below="@+id/linearLayoutSearchResult"/>
+
+</RelativeLayout>
+
